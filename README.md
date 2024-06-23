@@ -1,5 +1,5 @@
 # From Within Container - Simple Express Node TS Server
-Used https://github.com/uxjp/dev-docker-ubuntu/tree/express to develop the server.
+Used the branch from https://github.com/uxjp/dev-docker-ubuntu/pull/2 to develop the server.
 
 To run:  
 ```
