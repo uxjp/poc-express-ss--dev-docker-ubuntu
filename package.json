@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "An Express application with TypeScript setup",
+  "main": "index.js",
+  "scripts": {
+    "install:dependencies": "npm install express && npm install --save-dev typescript @types/node @types/express ts-node",
+    "init:typescript": "npx tsc --init",
+    "dev:first-time": "npm run install:dependencies && npm run init:typescript",
+    "build": "npx tsc",
+    "serve": "node dist/index.js",
+    "bns": "npm run build && npm run serve"
+  },
+  "keywords": [],
+  "author": "@uxjp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
